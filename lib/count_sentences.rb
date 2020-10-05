@@ -3,7 +3,7 @@ require 'pry'
 class String
   
   def initialize(word)
-    @word = name
+    @word = word
   end
 
   def sentence?
