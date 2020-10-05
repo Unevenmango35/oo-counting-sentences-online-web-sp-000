@@ -6,8 +6,8 @@ class String
     @word = word
   end
 
-  def sentence?
-   return self.end_with?
+  def sentence?(w)
+   return self.end_with?(w)
   end
 
   def question?
